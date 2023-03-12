@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'josefin San', sans-serif;
+}
+.logo-container {
+    text-align: left;
+    height: 100vh;
+    width: 100%;
+  } 
+.logo-container img {
+    width: 150px;
+    height: auto;
+  } 
+.head {
+     
+   background: url(imagebg.jpg)no-repeat; 
+   background-size: 100% 100%;
+
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  nav ul li a:hover{
+    color: mediumpurple;
+    transition: .3s;
+
+  }
+ 
+button:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
